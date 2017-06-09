@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B9DAD081EEAD9A70053220A /* RegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9DAD071EEAD9A70053220A /* RegistrationTableViewController.swift */; };
 		8BB7C2FD1EE86BF600DD2A1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7C2FC1EE86BF600DD2A1F /* AppDelegate.swift */; };
-		8BB7C2FF1EE86BF600DD2A1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7C2FE1EE86BF600DD2A1F /* ViewController.swift */; };
 		8BB7C3021EE86BF600DD2A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB7C3001EE86BF600DD2A1F /* Main.storyboard */; };
 		8BB7C3041EE86BF700DD2A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB7C3031EE86BF700DD2A1F /* Assets.xcassets */; };
 		8BB7C3071EE86BF700DD2A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB7C3051EE86BF700DD2A1F /* LaunchScreen.storyboard */; };
+		8BB7C30F1EE87A3E00DD2A1F /* DataStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7C30E1EE87A3E00DD2A1F /* DataStructs.swift */; };
+		8BB7C3131EE87CE900DD2A1F /* AddRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7C3121EE87CE900DD2A1F /* AddRegistrationTableViewController.swift */; };
+		8BDEE7701EE9BDE600506964 /* SelectRoomTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDEE76F1EE9BDE600506964 /* SelectRoomTypeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B9DAD071EEAD9A70053220A /* RegistrationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewController.swift; sourceTree = "<group>"; };
 		8BB7C2F91EE86BF600DD2A1F /* HotelManzana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelManzana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB7C2FC1EE86BF600DD2A1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BB7C2FE1EE86BF600DD2A1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8BB7C3011EE86BF600DD2A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BB7C3031EE86BF700DD2A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BB7C3061EE86BF700DD2A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BB7C3081EE86BF700DD2A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB7C30E1EE87A3E00DD2A1F /* DataStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructs.swift; sourceTree = "<group>"; };
+		8BB7C3121EE87CE900DD2A1F /* AddRegistrationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddRegistrationTableViewController.swift; path = ../AddRegistrationTableViewController.swift; sourceTree = "<group>"; };
+		8BDEE76F1EE9BDE600506964 /* SelectRoomTypeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectRoomTypeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		8BB7C2FB1EE86BF600DD2A1F /* HotelManzana */ = {
 			isa = PBXGroup;
 			children = (
-				8BB7C2FC1EE86BF600DD2A1F /* AppDelegate.swift */,
-				8BB7C2FE1EE86BF600DD2A1F /* ViewController.swift */,
+				8BDEE76F1EE9BDE600506964 /* SelectRoomTypeTableViewController.swift */,
+				8BB7C3121EE87CE900DD2A1F /* AddRegistrationTableViewController.swift */,
 				8BB7C3001EE86BF600DD2A1F /* Main.storyboard */,
+				8B9DAD071EEAD9A70053220A /* RegistrationTableViewController.swift */,
+				8BB7C2FC1EE86BF600DD2A1F /* AppDelegate.swift */,
+				8BB7C30E1EE87A3E00DD2A1F /* DataStructs.swift */,
 				8BB7C3031EE86BF700DD2A1F /* Assets.xcassets */,
 				8BB7C3051EE86BF700DD2A1F /* LaunchScreen.storyboard */,
 				8BB7C3081EE86BF700DD2A1F /* Info.plist */,
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB7C2FF1EE86BF600DD2A1F /* ViewController.swift in Sources */,
+				8BDEE7701EE9BDE600506964 /* SelectRoomTypeTableViewController.swift in Sources */,
+				8BB7C3131EE87CE900DD2A1F /* AddRegistrationTableViewController.swift in Sources */,
+				8BB7C30F1EE87A3E00DD2A1F /* DataStructs.swift in Sources */,
+				8B9DAD081EEAD9A70053220A /* RegistrationTableViewController.swift in Sources */,
 				8BB7C2FD1EE86BF600DD2A1F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +316,7 @@
 				8BB7C30D1EE86BF700DD2A1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
